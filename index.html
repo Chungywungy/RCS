@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm cheating :D</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1> Welcome to the RCS!</h1>
+        <p>Resources made for me and only me.</p>
+    </header>
+    <main>
+        <div class="tables">
+            <h1>Tables</h1>
+            <p>Tables let you arrange data into rows and columns.<br> Tables consists of 
+                table cells inside rows and columns. <br>Table cells can contain all sorts of HTML
+                elements.<br> Such as: text, images, links, lists, more tables, etc. 
+            </p>
+            <table>
+                <thead>
+                <tr>
+                    <th>HTML</th>
+                    <th>Explanation</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="td">
+                    <td>&lt;td&gt;</td>
+                    <td>Each cell uses a &lt;td&gt; and a &lt;/td&gt; tag.<br>
+                        td can consist of basically any HTML element.
+                        <br> td = table data.
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td>&lt;tr&gt;</td>
+                    <td>All td in a table must be surrounded by a<br> 
+                        &lt;tr&gt; and a &lt;/tr&gt; tag in order to<br>
+                        create a new row in the table.<br> tr = table row.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;th&gt;</td>
+                    <td>A table's first row is composed of<br>
+                         a &lt;th&gt; and a &lt;/th&gt; tag.<br>
+                         Creates a header for a column in the table.<br>
+                         th = table head. 
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <h2 class="table_css">CSS used</h2>
+                <p>Border creation is all up to the CSS code.<br>
+                    Using an external stylesheet it looks like this:<br>
+                    <strong>table, th, td {<br>
+                        border: 1px solid black;<br>
+                        border-collapse: collapse;<br>
+                        text-align: center;<br>
+                        font-size: larger;<br>
+                    }</strong><br>
+                    This causes the table to look like this <br>
+                    <table>
+                        <tr>
+                            <th>This is an example</th>
+                        </tr>
+                        <tr>
+                            <td>Work</td>
+                        </tr>
+                    </table>
+                    <p>border-collapse turns the double lined table into a single lined one. <br>
+                    text-align aligns the text to the parent element. <br>
+                    font-size changes the size of the font. <br>
+                    Without all of this, it ends up looking like elements spaced out on a doc.
+                    </p> 
+                </p>
+        </div>
+    </main>
+    
+</body>
+</html>
